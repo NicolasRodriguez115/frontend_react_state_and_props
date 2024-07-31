@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    background-color: #242424;
+    color: #f5f5f5
+}
+
+li {
+    font-size: 32px;
+    margin: 50px;
+}
+
+.movie-title {
+    text-decoration: underline;
+}
+
+.movie-title, button:hover{
+    cursor: pointer;
+}
+
+button {
+    font-size: 14px;
+    background-color: #ff2828;
+    border: none;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.movie-information {
+    font-weight: normal;
+    font-size: 24px;
+    
+}
